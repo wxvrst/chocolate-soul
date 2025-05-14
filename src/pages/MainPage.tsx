@@ -144,17 +144,17 @@ const MainPage = () => {
                 </h2>
             </section>
             <section
-                className='bg-neutral-50 mx-auto flex p-24 justify-center gap-12 flex-wrap'
+                className='bg-neutral-50 mx-auto flex py-24 px-8 justify-center gap-12 flex-wrap'
             >
                 <div
-                    className="flex gap-4 justify-center"
+                    className="flex flex-col md:flex-row gap-4 justify-center"
                 >
                     <img
-                        className='w-[220px] h-[552px] object-cover'
+                        className='w-[220px] aspect-3/7 object-cover'
                         src='./images/cacao1.avif'
                     />
                     <img
-                        className='w-[220px] h-[552px] object-cover'
+                        className='w-[220px] aspect-3/7 object-cover'
                         src='./images/cacao2.jpeg'
                     />
                 </div>
@@ -167,13 +167,13 @@ const MainPage = () => {
                         Какао
                     </h1>
                     <h2
-                        className='border-b pb-2'
+                        className='border-b pb-2 text-center'
                     >
                         КАКАО-БОБЫ ЛУЧШЕГО КАЧЕСТВА СО ВСЕГО МИРА
                     </h2>
 
                     <p
-                        className='max-w-[80vw] md:max-w-[30vw] text-sm/loose text-center mt-6'
+                        className='md:max-w-[30vw] max-w-[80vw] text-sm/loose text-center mt-6'
                     >
                         Здесь будет удачно смотреться текст о вашей компании и услугах.
                         Используйте эту возможность, чтобы выгодно представить себя и свою компанию клиентам.
@@ -193,7 +193,7 @@ const MainPage = () => {
                     Свяжитесь со мной
                 </h1>
                 <h2
-                    className='border-b pb-2 tracking-[.20em] text-center'
+                    className='text-sm sm:text-base border-b pb-2 tracking-[.20em] text-center'
                 >
                     INFO@MYSITE.RU / ТЕЛЕФОН: +7 (495) 000-00-00
                 </h2>

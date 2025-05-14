@@ -1,4 +1,4 @@
-import {type RootState } from '../store/store';
+import { type RootState } from '../store/store';
 import { useSelector } from 'react-redux';
 const MenuPage = () => {
     const menuItems = useSelector((state: RootState) => state.menu);
@@ -14,7 +14,7 @@ const MenuPage = () => {
                 </h1>
             </section>
             <section
-                className='bg-white text-black pt-24 px-62'
+                className='bg-white text-black pt-24 flex items-center justify-center flex-col'
             >
                 <h1
                     className='text-4xl text-left font-normal font-serif mx-4'
@@ -24,23 +24,25 @@ const MenuPage = () => {
                 <div
                     className='border-b mt-8 border-neutral-200'
                 />
-                <ul>
+                <ul
+                    className="flex flex-col"
+                >
                     {menuItems.map(item => (
                         <>
                             <li
-                                className='mx-4 mt-4 flex justify-between'
+                                className='mx-4 mt-4 flex justify-between w-[80vw]'
                                 key={item.id}
                                 style={{ marginBottom: '20px' }}
                             >
                                 <div>
                                     <h3
-                                        className='text-lg text-neutral-700'
+                                        className='sm:text-lg text-sx text-neutral-700'
                                     >
                                         {item.title}
                                     </h3>
 
                                     <p
-                                        className='text-neutral-600'
+                                        className='sm:text-lg text-sx text-neutral-600'
                                     >
                                         {item.description}
                                     </p>
@@ -53,10 +55,9 @@ const MenuPage = () => {
                                         {item.price} ₽
                                     </p>
                                     <img
-                                        className='ml-12'
+                                        className='ml-12 w-42'
                                         src={item.imgPath}
                                         alt={item.title}
-                                        width={150}
                                     />
                                 </div>
 

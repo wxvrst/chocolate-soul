@@ -51,7 +51,7 @@ const Header = () => {
                     </IconButton>
                 </Link>
                 <div
-                    className='flex items-center ml-8'>
+                    className='flex items-center gap-2'>
                     <Link to='/'>
                         <IconButton>
                             <XIcon sx={{ color: 'white', fontSize: 16 }} />

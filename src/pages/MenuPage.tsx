@@ -8,7 +8,7 @@ const MenuPage = () => {
                 className='flex justify-center items-center'
             >
                 <h1
-                    className='tracking-[.10em] text-4xl font-serif my-32'
+                    className='tracking-[.10em] text-4xl font-serif my-32 text-center'
                 >
                     Шоколад и десерты
                 </h1>
@@ -55,7 +55,7 @@ const MenuPage = () => {
                                         {item.price} ₽
                                     </p>
                                     <img
-                                        className='ml-12 w-42'
+                                        className='ml-6 w-42'
                                         src={item.imgPath}
                                         alt={item.title}
                                     />

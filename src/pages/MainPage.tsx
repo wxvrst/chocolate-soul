@@ -15,7 +15,7 @@ const MainPage = () => {
                     -  ШОКОЛАДНЫЙ БУТИК  -
                 </h2>
                 <h1
-                    className='md:text-8xl text-6xl font-serif font-thin tracking-normal text-center'
+                    className='md:text-8xl text-5xl font-serif font-thin tracking-normal text-center'
                 >
                     Шоколадная<br /> душа
                 </h1>
@@ -68,7 +68,7 @@ const MainPage = () => {
             </section>
 
             <div
-                className='bg-cover bg-[url(./images/bg-image-second.jpg)] bg-fixed top bg-center h-140 bg-no-repeat	'
+                className='bg-cover bg-[url(./images/bg-image-second.jpg)] bg-center h-140 bg-no-repeat	'
             />
 
             <section
@@ -130,7 +130,7 @@ const MainPage = () => {
             </section>
 
             <section
-                className='bg-cover bg-[url(./images/bg-image-3.avif)]] bg-fixed top bg-center bg-no-repeat flex flex-col flex-wrap gap-2 font-light justify-center items-center h-140'
+                className='bg-cover bg-[url(./images/bg-image-3.avif)] bg-center bg-no-repeat flex flex-col flex-wrap gap-2 font-light justify-center items-center h-140'
             >
                 <h1
                     className='text-4xl italic font-serif md:max-w-[30vw] max-w-[80vw] text-center tracking-wide'

@@ -12,7 +12,6 @@ import MenuItem from '@mui/material/MenuItem';
 import React from 'react'
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 const Header = () => {
-    //@ts-ignore
     const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
     const open = Boolean(anchorEl);
     const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
@@ -21,6 +20,7 @@ const Header = () => {
     const handleClose = () => {
         setAnchorEl(null);
     };
+    //@ts-ignore
     const [cartItemsCount, serCartItemsCour] = useState(0);
     const isSmallScreen = useMediaQuery('(max-width: 640px)');
     const menuItems = [

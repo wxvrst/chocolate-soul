@@ -128,7 +128,8 @@ const MainPage = () => {
                     />
                 </div>
             </section>
-
+ 
+ 
             <section
                 className='bg-cover bg-[url(./images/bg-image-3.avif)] bg-center bg-no-repeat flex flex-col flex-wrap gap-2 font-light justify-center items-center h-140'
             >

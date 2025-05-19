@@ -130,7 +130,7 @@ const MainPage = () => {
             </section>
 
             <section
-                className='bg-cover bg-white bg-center bg-no-repeat flex flex-col flex-wrap gap-2 font-light justify-center items-center h-140'
+                className='bg-cover bg-[url(./images/bg-image-3.avif)] bg-center bg-no-repeat flex flex-col flex-wrap gap-2 font-light justify-center items-center h-140'
             >
                 <h1
                     className='text-4xl italic font-serif md:max-w-[30vw] max-w-[80vw] text-center tracking-wide'
